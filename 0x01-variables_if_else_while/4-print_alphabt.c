@@ -9,7 +9,7 @@ int main(void)
 {
 	int character;
 
-	for (character = 'a'; character < 'z'; character++)
+	for (character = 'a'; character <= 'z'; character++)
 	{
 		if (character == 'e' || character == 'q')
 			continue;
